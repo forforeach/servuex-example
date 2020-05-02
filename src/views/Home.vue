@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="Vue logo" src="@/assets/logo.png" />
     <h2>Hello: {{ fullName }}</h2>
     <div>
       <input type="text" name="fisrtName" v-model="newFirstName" />

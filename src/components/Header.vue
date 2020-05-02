@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link>
     </div>
     <div class="user-box">
-      <img class="avatar" alt="Vue logo" src="../assets/logo.png" />
+      <img class="avatar" alt="Vue logo" src="@/assets/logo.png" />
       <div class="name">{{ fullName }}</div>
     </div>
   </div>
