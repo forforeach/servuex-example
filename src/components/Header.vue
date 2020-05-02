@@ -6,13 +6,23 @@
     </div>
     <div class="user-box">
       <img class="avatar" alt="Vue logo" src="../assets/logo.png" />
-      <div class="name">John Doe</div>
+      <div class="name">{{ fullName }}</div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import UserService from "@/services/user.service";
+export default {
+  created() {
+    UserService.getUserData();
+  },
+  computed: {
+    fullName() {
+      return UserService.fullName;
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
