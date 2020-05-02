@@ -1,4 +1,6 @@
-# servuex-example
+# Servuex example project
+
+[Servuex](https://github.com/forforeach/servuex) is a tiny library that allows easier interactions with [Vuex](https://vuex.vuejs.org/) stores. This project represents the way of using Servuex on top of Vuex store.
 
 ## Project setup
 ```
