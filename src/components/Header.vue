@@ -14,9 +14,6 @@
 <script>
 import UserService from "@/services/user.service";
 export default {
-  created() {
-    UserService.getUserData();
-  },
   computed: {
     fullName() {
       return UserService.fullName;
